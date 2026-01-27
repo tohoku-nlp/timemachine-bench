@@ -1,0 +1,3 @@
+[submodule "services/pypi-timemachine"]
+	path = services/pypi-timemachine
+	url = https://github.com/r-fujii/pypi-timemachine.git
