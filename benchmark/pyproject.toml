@@ -1,0 +1,24 @@
+[project]
+name = "timemachine-bench-construction"
+version = "1.0.0"
+description = "Official implementation for benchmark construction from the paper 'TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks' (EACL 2026)"
+readme = "README.md"
+requires-python = "==3.12.10"
+dependencies = [
+    "boto3==1.38.46",
+    "dicttoxml==1.7.16",
+    "langgraph==0.4.10",
+    "packaging==24.2",
+    "requests==2.32.4",
+    "tenacity==9.1.2",
+    "tomlkit==0.13.3",
+    "tqdm==4.67.1",
+]
+
+[tool.setuptools]
+package-dir = {"utils" = "src/core/utils", "llm" = "src/core/llm"}
+packages = ["utils", "llm"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
