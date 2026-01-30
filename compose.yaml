@@ -1,0 +1,11 @@
+services:
+  pypi-timemachine:
+    build:
+      context: ./services
+      dockerfile: Dockerfile
+    container_name: pypi-timemachine
+    ports:
+      - "5000:5000"
+    # a date argument is required to start the server,
+    # but the value is overridden by specific dates provided dynamically in each request
+    command: ["--port", "5000", "2025-07-31"]
