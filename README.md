@@ -1,5 +1,17 @@
 # TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks (EACL 2026)
 
+[![EACL](https://img.shields.io/badge/EACL%202026%20(Main%20Conference)-blue)](https://2026.eacl.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2601.22597-b31b1b.svg)](https://arxiv.org/abs/2601.22597)
+[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+
+<div align="center">
+  <a href="./assets/timemachine-bench_overview.png">
+    <img src="./assets/timemachine-bench_overview.png" width="640" alt="overview">
+  </a>
+</div>
+
+<br>
+
 **TimeMachine-bench** is a benchmark designed to evaluate model capabilities in repository-level migration tasks.
 The benchmark consists of real-world GitHub repositories whose tests begin to fail in response to dependency updates.
 
