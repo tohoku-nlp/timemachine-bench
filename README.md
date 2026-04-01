@@ -63,7 +63,7 @@ docker compose up -d
 
 #### 3. Now, let's run the experiments!
 
-- **Dataset construction**: See [`benchmark/README.md`](./benchmark/README.md) for instructions on the automated construction pipeline
+- **Dataset construction (Optional)**: See [`benchmark/README.md`](./benchmark/README.md) for instructions on the automated construction pipeline
 - **Running baseline agents**: See [`agents/README.md`](./agents/README.md) for instructions on running baseline agents on the dataset.
 
 ### Citation
@@ -76,6 +76,6 @@ If you find TimeMachine-bench useful in your research, please consider citing th
     author = {Fujii, Ryo and Morishita, Makoto and Yano, Kazuki and Suzuki, Jun},
     year = {2026},
     booktitle = {Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)},
-    note = {to appear}
+    pages = {8233--8264}
 }
 ```
